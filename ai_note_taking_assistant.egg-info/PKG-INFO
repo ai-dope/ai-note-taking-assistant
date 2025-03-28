@@ -1,0 +1,139 @@
+Metadata-Version: 2.4
+Name: ai-note-taking-assistant
+Version: 0.1.0
+Summary: An AI-powered note-taking assistant for processing documents and videos
+Home-page: https://github.com/yourusername/ai-note-taking-assistant
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: python-docx
+Requires-Dist: PyPDF2
+Requires-Dist: selenium
+Requires-Dist: python-magic
+Requires-Dist: langchain
+Requires-Dist: openai
+Requires-Dist: chromadb
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AI Note-Taking Assistant
+
+An intelligent note-taking assistant that can process documents and online videos to create structured, hierarchical notes.
+
+## Features
+
+- Document Processing
+  - Support for various document formats (.docx, .pdf)
+  - Automatic topic detection and organization
+  - Hierarchical note structure
+  - Smart note merging for related topics
+
+- Video Processing
+  - Support for online video content
+  - Authentication handling for protected content
+  - Adjustable playback speed
+  - Automatic transcription and note generation
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ai-note-taking-assistant.git
+cd ai-note-taking-assistant
+```
+
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your API keys and configuration
+```
+
+## Usage
+
+### Processing Documents
+
+```python
+from note_assistant import NoteAssistant
+
+assistant = NoteAssistant()
+notes = assistant.process_document("path/to/document.docx")
+```
+
+### Processing Videos
+
+```python
+from note_assistant import NoteAssistant
+
+assistant = NoteAssistant()
+notes = assistant.process_video(
+    url="https://example.com/video",
+    username="user",
+    password="pass",
+    playback_speed=1.5
+)
+```
+
+## Project Structure
+
+```
+ai-note-taking-assistant/
+├── src/
+│   ├── document_processor.py
+│   ├── video_processor.py
+│   ├── note_manager.py
+│   └── utils.py
+├── tests/
+├── data/
+├── requirements.txt
+└── README.md
+```
+
+## Testing
+
+To run the tests:
+
+```bash
+python run_tests.py
+```
+
+This will:
+- Run all unit and integration tests
+- Generate a test coverage report
+- Create a detailed log of test results
+- Show a summary of passed and failed tests
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

@@ -1,0 +1,17 @@
+README.md
+setup.py
+ai_note_taking_assistant.egg-info/PKG-INFO
+ai_note_taking_assistant.egg-info/SOURCES.txt
+ai_note_taking_assistant.egg-info/dependency_links.txt
+ai_note_taking_assistant.egg-info/requires.txt
+ai_note_taking_assistant.egg-info/top_level.txt
+src/__init__.py
+src/document_processor.py
+src/note_assistant.py
+src/note_manager.py
+src/video_processor.py
+tests/test_config.py
+tests/test_document_processor.py
+tests/test_integration.py
+tests/test_note_manager.py
+tests/test_video_processor.py

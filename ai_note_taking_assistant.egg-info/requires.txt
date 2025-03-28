@@ -1,0 +1,8 @@
+python-docx
+PyPDF2
+selenium
+python-magic
+langchain
+openai
+chromadb
+python-dotenv

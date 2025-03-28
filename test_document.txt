@@ -1,0 +1,18 @@
+
+        Python Programming Basics
+        
+        Variables and Data Types
+        - Numbers (int, float)
+        - Strings
+        - Lists and Dictionaries
+        
+        Control Structures
+        - if/else statements
+        - for loops
+        - while loops
+        
+        Functions
+        - Definition and calling
+        - Parameters and return values
+        - Lambda functions
+        
