@@ -1,0 +1,12 @@
+{
+  "video_url": "https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m",
+  "main_topics": [
+    "Reproducing the GPT-2 124M model",
+    "Implementing the GPT-2 architecture from scratch",
+    "Optimizing the training process for performance",
+    "Evaluating the trained model on the HSWAG dataset",
+    "Comparisons to the original GPT-2 and GPT-3 models"
+  ],
+  "notes": [],
+  "processed_at": "2025-03-29T11:15:34.805942"
+}

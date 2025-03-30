@@ -1,0 +1,5 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2

@@ -1,0 +1,12 @@
+{
+  "video_url": "https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m",
+  "main_topics": [
+    "Reproducing the GPT-2 model",
+    "Implementing a GPT-2 model from scratch",
+    "Optimizing the training process with techniques like mixed precision and gradient accumulation",
+    "Evaluating the model on downstream tasks like HSWAG",
+    "Scaling the training to multiple GPUs using distributed data parallel"
+  ],
+  "notes": [],
+  "processed_at": "2025-03-29T11:32:18.195540"
+}

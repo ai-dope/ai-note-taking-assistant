@@ -1,0 +1,76 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: Failed to process chunk 1/28 after 3 attempts: JSON validation failed: Expecting ',' delimiter: line 15 column 36 (char 897)
+Content: {
+    "notes": [
+        {
+            "topic": "Reproducing the GPT-2 124M model",
+            "content": "The video discusses reproducing the GPT-2 124M model, which was released by OpenAI in 2019. The speaker mentions that there are different model sizes in the GPT-2 'miniseries', ranging from 124M to 1.5B parameters. The 124M model has 12 layers in the Transformer and 768 channels/dimensions.",
+            "key_points": [
+                "Reproduce the GPT-2 124M model",
+                "GPT-2 has a 'miniseries' of models with different sizes",
+                "124M model has 12 Transformer layers and 768 dimensions"
+            ],
+            "examples": [
+                "Plotting the position embeddings of the 124M model shows sinusoidal patterns representing the positional information"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-04-"05T12":"34":56.789Z",
+            "time_elapsed": 0
+        },
+        {
+            "topic": "Implementing the GPT-2 architecture from scratch",
+            "content": "The speaker mentions that the original GPT-2 code was written in TensorFlow, but they want to use PyTorch instead. To get the target model, they will use the Hugging Face Transformers library, which has a PyTorch implementation of the GPT-2 model. This allows them to load the pre-trained weights and inspect the model parameters.",
+            "key_points": [
+                "Original GPT-2 code was in TensorFlow",
+                "Using Hugging Face Transformers library to load PyTorch GPT-2 model",
+                "Inspecting the model parameters, such as token and position embeddings"
+            ],
+            "examples": [
+                "Visualizing the position embeddings of the GPT-2 model"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-04-"05T12":"34":56.789Z",
+            "time_elapsed": 120
+        },
+        {
+            "topic": "Optimizing model training performance",
+            "content": "The speaker does not go into details about optimizing model training performance in this section of the video transcript. The transcript focuses on loading the pre-trained GPT-2 model and inspecting its parameters.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-04-"05T12":"34":56.789Z",
+            "time_elapsed": 180
+        },
+        {
+            "topic": "Evaluating model performance on the HSWAG dataset",
+            "content": "The video transcript does not mention evaluating the model's performance on the HSWAG dataset. The focus is on reproducing the GPT-2 124M model and inspecting its parameters.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-04-"05T12":"34":56.789Z",
+            "time_elapsed": 240
+        },
+        {
+            "topic": "Pretraining on the FineWebEdu dataset and comparing to GPT-2 and GPT-3 baselines",
+            "content": "The video transcript does not discuss pretraining on the FineWebEdu dataset or comparing the model to GPT-2 and GPT-3 baselines. The focus is on reproducing the GPT-2 124M model and inspecting its parameters.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-04-"05T12":"34":56.789Z",
+            "time_elapsed": 300
+        }
+    ]
+}. Error details: {
+  "cause": "None"
+}

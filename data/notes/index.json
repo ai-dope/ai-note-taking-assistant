@@ -1,0 +1,1678 @@
+{
+  "topics": {
+    "Large language model training pipeline": {
+      "files": [
+        "data/notes/notes_20250328_170940.json"
+      ],
+      "subtopics": [],
+      "time_ranges": [
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 0.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 56.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 116.759
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 170.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 232.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 288.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 343.4
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 406.919
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 468.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 526.519
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 597.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 732.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 808.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 877.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1014.399
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1078.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1205.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1266.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1326.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1387.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1451.919
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1509.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1631.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1697.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1756.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1815.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1868.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1930.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1990.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2055.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2115.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2180.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2303.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2365.079
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2430.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2493.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2609.8
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2680.839
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2807.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2929.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2996.839
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3115.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3184.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3238.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3297.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3425.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3485.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3549.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3610.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3717.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3774.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3831.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3884.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3938.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4002.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4069.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4126.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4186.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4241.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4297.8
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4352.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4410.639
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4528.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4583.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4648.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4704.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4769.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4825.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4882.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5124.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5182.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5244.8
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5442.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5676.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5736.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5795.4
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6260.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6319.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6379.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6485.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6538.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6597.4
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6652.079
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6713.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6770.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6829.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6883.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7168.159
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7351.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7639.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7696.639
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7816.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7925.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7988.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8099.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8163.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8220.479
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8399.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8459.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8517.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8578.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8751.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8805.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8865.479
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9026.479
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9422.24
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9478.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9535.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9651.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9775.439
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10075.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10601.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10906.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11078.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11198.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11368.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11423.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11595.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11648.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11757.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11881.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12048.239
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12101.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12224.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12288.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12350.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12409.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12594.84
+        }
+      ]
+    },
+    "Cognitive capabilities and limitations of language models": {
+      "files": [
+        "data/notes/notes_20250328_170940.json"
+      ],
+      "subtopics": [],
+      "time_ranges": [
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 0.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1387.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1631.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1756.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1868.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2180.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2303.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2493.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2609.8
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2807.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2865.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2929.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3115.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3238.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3297.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3425.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3485.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3549.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3610.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3717.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3831.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3884.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3938.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4069.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4126.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4186.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4241.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4352.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4410.639
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4472.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4528.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4583.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4704.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4769.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4825.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4882.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4940.159
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4995.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5059.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5309.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5442.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5503.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5563.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5736.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5795.4
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5908.159
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5974.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6087.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6139.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6194.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6260.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6319.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6379.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6431.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6485.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6652.079
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6713.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6770.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6829.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6883.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6939.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6991.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7106.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7291.4
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7351.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7402.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7465.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7516.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7578.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7639.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7696.639
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7760.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7925.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8099.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8163.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8274.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8459.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8578.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8805.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9026.479
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9254.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9422.24
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9478.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9535.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9651.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9775.439
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10016.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10075.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10183.439
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10962.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11078.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11198.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11313.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11368.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11423.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11480.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11537.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11595.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11648.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11757.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11881.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12048.239
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12101.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12224.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12288.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12350.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12409.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12594.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12652.72
+        }
+      ]
+    },
+    "Reinforcement learning for language models": {
+      "files": [
+        "data/notes/notes_20250328_170940.json"
+      ],
+      "subtopics": [],
+      "time_ranges": [
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 0.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1078.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1387.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1868.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2180.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2303.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2493.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2609.8
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2807.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3238.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3425.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3485.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3549.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3610.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3667.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3717.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3774.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3831.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3884.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3938.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4069.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4126.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4186.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4241.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4352.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4528.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5442.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5503.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5616.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5736.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5847.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6260.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6319.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6485.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6770.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6829.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6883.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7639.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7696.639
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7760.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7816.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7872.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7925.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7988.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8042.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8099.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8163.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8399.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8459.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8517.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8578.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8632.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8690.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8805.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8917.68
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8976.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9083.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9138.2
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9193.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9310.68
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9422.24
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9478.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9535.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9651.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9711.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9775.439
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9830.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9891.24
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9954.24
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10075.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10183.439
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10243.2
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10301.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10364.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10420.68
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10477.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10543.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10659.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10719.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10784.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10845.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11019.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11078.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11140.2
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11198.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11368.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11423.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11480.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11648.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11757.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12048.239
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12101.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12288.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12350.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12409.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12534.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12594.84
+        }
+      ]
+    },
+    "Accessing and using state-of-the-art language models": {
+      "files": [
+        "data/notes/notes_20250328_170940.json"
+      ],
+      "subtopics": [],
+      "time_ranges": [
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 0.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1078.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1387.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1565.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 1868.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2180.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2303.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2493.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2609.8
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2807.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2929.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 2996.839
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3238.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3358.2
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3425.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3485.28
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3549.319
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3610.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3717.039
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3774.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3831.559
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3884.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 3938.48
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4069.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4126.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4186.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4241.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4352.719
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4472.36
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 4528.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5059.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5309.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5442.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5676.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 5736.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6032.599
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6260.44
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6319.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6485.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6770.92
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6829.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 6883.119
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7048.88
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7639.32
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7696.639
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 7925.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8099.0
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8163.679
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8399.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8459.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8578.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 8805.08
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9310.68
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9370.68
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9422.24
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9478.64
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9535.359
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9651.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 9775.439
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 10075.72
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11078.52
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11198.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11368.12
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11423.56
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11648.04
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11700.84
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11757.199
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11881.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11937.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 11994.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12048.239
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12101.96
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12288.76
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12350.279
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12409.6
+        },
+        {
+          "file": "data/notes/notes_20250328_170940.json",
+          "time": 12594.84
+        }
+      ]
+    }
+  },
+  "notes": [],
+  "last_updated": "2025-03-28T17:09:40.387398"
+}

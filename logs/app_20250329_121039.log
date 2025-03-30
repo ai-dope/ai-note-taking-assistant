@@ -1,0 +1,28 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: JSON parsing error in chunk 1: Expecting ',' delimiter: line 6 column 195 (char 294)
+Error location: line 6, column 195
+Error message: Expecting ',' delimiter
+Error position: 294
+Error doc: {
+    "notes": [{
+    "notes": [
+        {
+            "topic": "Reproducing the GPT-2 124M model",
+            "content": "The video discusses reproducing the 124 million parameter version of the GPT...
+Cleaned content: {
+    "notes": [{
+    "notes": [
+        {
+            "topic": "Reproducing the GPT-2 124M model",
+            "content": "The video discusses reproducing the 124 million parameter version of the GPT...

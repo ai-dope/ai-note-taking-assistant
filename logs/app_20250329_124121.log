@@ -1,0 +1,84 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: Failed to process chunk 1/28 after 3 attempts: JSON validation failed: Expecting ',' delimiter: line 5 column 150 (char 233)
+Content: {
+    "notes": [
+        {
+            "topic": "Reproducing the GPT-2 124M model",
+            "content": "The video discusses reproducing the GPT-2 124M model, which is the smallest model in the GPT-2 model series. The key points "are":
+- GPT-2 was released by OpenAI in 2019 with a blog post, paper, and code on GitHub
+- The GPT-2 model series consists of models of different sizes, with the 124M model being the smallest
+- The 124M model has 12 layers in the Transformer and 768 channels/dimensions
+- The video will focus on reproducing this 124M model from scratch",
+            "key_points": [
+                "Reproduce the GPT-2 124M model",
+                "GPT-2 model series consists of different sizes",
+                "124M model has 12 layers and 768 dimensions",
+                "Reproducing the 124M model from scratch"
+            ],
+            "examples": [
+                "Scaling laws show performance improvements as model size increases",
+                "Original GPT-2 code was in TensorFlow, but will use PyTorch here"
+            ],
+            "source": "video transcript",
+            "timestamp": "2022-05-"15T12":"34":56.789Z,
+            time_elapsed": 0
+        },
+        {
+            "topic": "Implementing the GPT-2 architecture from scratch",
+            "content": "The video mentions that instead of using the original TensorFlow-based GPT-2 code, they will be using the PyTorch-based implementation from the Hugging Face Transformers library. This will make it easier to load and work with the pre-trained weights. The key points "are":
+- The Hugging Face Transformers library has a PyTorch implementation of the GPT-2 model
+- This implementation has already converted the weights from TensorFlow to PyTorch
+- The video will use this pre-trained PyTorch model as the target to reproduce from scratch",
+            "key_points": [
+                "Use PyTorch-based implementation from Hugging Face Transformers",
+                "Transformers library has converted weights from TensorFlow to PyTorch",
+                "Use pre-trained PyTorch model as the target to reproduce"
+            ],
+            "examples": [
+                "Inspect the shapes of the model parameters like token embeddings and position embeddings"
+            ],
+            "source": "video transcript",
+            "timestamp": "2022-05-"15T12":"34":56.789Z,
+            time_elapsed": "18",0
+        },
+        {
+            "topic": "Techniques for improving training performance",
+            "content": "The video does not explicitly discuss techniques for improving training performance in this section. The focus is on setting up the target model and understanding the model architecture.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2022-05-"15T12":"34":56.789Z,
+            time_elapsed": "36",0
+        },
+        {
+            "topic": "Evaluating the trained model on the HELSWAG task",
+            "content": "The video does not discuss evaluating the trained model on the HELSWAG task in this section. The focus is on setting up the target model and understanding the model architecture.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2022-05-"15T12":"34":56.789Z,
+            time_elapsed": "54",0
+        },
+        {
+            "topic": "Comparison to the original GPT-2 124M model",
+            "content": "The video does not make a direct comparison to the original GPT-2 124M model in this section. The focus is on setting up the target model and understanding the model architecture. The video does mention that the goal is to reproduce a model that is as good as the original GPT-2 124M model.",
+            "key_points": [
+                "Goal is to reproduce a model as good as the original GPT-2 124M"
+            ],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2022-05-"15T12":"34":56.789Z,
+            time_elapsed":. Error details: {
+  "cause": "None"
+}

@@ -1,0 +1,75 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: Failed to process chunk 1/28 after 3 attempts: JSON validation failed: Expecting ',' delimiter: line 15 column 36 (char 973)
+Content: {
+    "notes": [
+        {
+            "topic": "Reproducing the GPT-2 model",
+            "content": "The goal is to reproduce the 124 million parameter version of the GPT-2 model that was released by OpenAI in 2019. The GPT-2 model comes in different sizes, with the 124 million parameter model being the smallest. The model has 12 layers in the Transformer and 768 channels/dimensions.",
+            "key_points": [
+                "Reproduce the 124 million parameter GPT-2 model",
+                "GPT-2 comes in different model sizes, with 124M being the smallest",
+                "The 124M model has 12 Transformer layers and 768 dimensions"
+            ],
+            "examples": [
+                "The larger GPT-2 models can be charted to show scaling laws, where model size is plotted against downstream metrics like translation, summarization, and question answering"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-04-"10T10":"00":00Z",
+            "time_elapsed": "0"
+        },
+        {
+            "topic": "Implementing the GPT-2 architecture from scratch",
+            "content": "The original GPT-2 code was written in TensorFlow, but the presenter wants to use PyTorch instead. To get the target model, they will use the Hugging Face Transformers library, which has a PyTorch implementation of the GPT-2 model with the weights converted from TensorFlow. This allows them to easily load and work with the pre-trained 124M GPT-2 model.",
+            "key_points": [
+                "Original GPT-2 code was in TensorFlow, but presenter wants to use PyTorch",
+                "Using Hugging Face Transformers library to get PyTorch implementation of GPT-2 with converted weights",
+                "Can easily load and work with the pre-trained 124M GPT-2 model"
+            ],
+            "examples": [
+                "Inspecting the shapes of the model parameters, such as the token embeddings and position embeddings"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-04-"10T10":"00":00Z",
+            "time_elapsed": "120"
+        },
+        {
+            "topic": "Optimizing model training performance",
+            "content": "The presenter mentions that reproducing the GPT-2 124M model can now be done in roughly an hour or less, costing about $10 on the cloud, thanks to improvements in GPUs and compute power compared to when the original model was developed. Techniques like mixed precision, gradient accumulation, and distributed data parallelism can be used to optimize the training performance.",
+            "key_points": [
+                "Reproducing GPT-2 124M model can now be done in ~1 hour for ~$10 on the cloud",
+                "Improvements in GPUs and compute power compared to original model development",
+                "Optimization techniques like mixed precision, gradient accumulation, and distributed data parallelism"
+            ],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-04-"10T10":"00":00Z",
+            "time_elapsed": "240"
+        },
+        {
+            "topic": "Evaluating model performance on downstream tasks",
+            "content": "The presenter plans to evaluate the performance of the reproduced GPT-2 model on downstream tasks like the HELLASWAG dataset. They will compare the performance of the reproduced model to the original 124M GPT-2 model released by OpenAI.",
+            "key_points": [
+                "Evaluate reproduced GPT-2 model on downstream tasks like HELLASWAG",
+                "Compare performance to original 124M GPT-2 model"
+            ],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-04-"10T10":"00":00Z",
+            "time_elapsed": "300"
+        },
+        {
+            "topic": "Exploring the LLM-Doctr project",
+            "content": "The presenter mentions the LLM-Doctr project as an alternative, lower-level implementation of GPT-2/3 training, in addition to the. Error details: {
+  "cause": "None"
+}

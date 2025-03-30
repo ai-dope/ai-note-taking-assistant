@@ -1,0 +1,12 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: Failed to process chunk 1/28 after 3 attempts: "Input to PromptTemplate is missing variables {' and end with '}.  Expected: [' and end with ', 'main_topics', 'text'] Received: ['text', 'main_topics']\nNote: if you intended { and end with } to be part of the string and not a variable, please escape it with double curly braces like: '{{ and end with }}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT ". Error details: {
+  "cause": "None"
+}

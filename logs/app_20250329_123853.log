@@ -1,0 +1,85 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: Failed to process chunk 1/28 after 3 attempts: JSON validation failed: Expecting ',' delimiter: line 15 column 36 (char 930)
+Content: {
+    "notes": [
+        {
+            "topic": "Reproducing the GPT-2 model",
+            "content": "The goal is to reproduce the 124 million parameter version of the GPT-2 model. GPT-2 was released by OpenAI in 2019 with a blog post, paper, and code on GitHub. The 124 million parameter model has 12 layers in the Transformer and 768 channels/dimensions.",
+            "key_points": [
+                "Reproduce the 124 million parameter GPT-2 model",
+                "GPT-2 was released by OpenAI in 2019 with a blog post, paper, and code",
+                "The 124 million parameter model has 12 layers and 768 channels/dimensions"
+            ],
+            "examples": [
+                "The GPT-2 model sizes can be plotted against downstream metrics like translation, summarization, and question answering to chart scaling laws"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-05-"23T09":"00":00Z,
+            time_elapsed": 0
+        },
+        {
+            "topic": "Implementing the GPT-2 architecture from scratch",
+            "content": "The original GPT-2 code was written in TensorFlow, so the presenter wants to use PyTorch instead. They will use the Hugging Face Transformers library to load the pre-trained GPT-2 124M model and inspect the model parameters like the token embeddings and position embeddings.",
+            "key_points": [
+                "Use PyTorch instead of the original TensorFlow code",
+                "Leverage the Hugging Face Transformers library to load the pre-trained GPT-2 124M model",
+                "Inspect the model parameters like token embeddings and position embeddings"
+            ],
+            "examples": [
+                "The position embeddings in GPT-2 have structure, learning sinusoids and cosinuses to represent the relative positions of tokens"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-05-"23T09":"00":00Z,
+            time_elapsed": 140
+        },
+        {
+            "topic": "Optimizing the training process",
+            "content": "This section is not covered in the provided transcript. The transcript does not mention any details about optimizing the training process through techniques like mixed precision, gradient accumulation, or distributed data parallelism.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-05-"23T09":"00":00Z,
+            time_elapsed": 0
+        },
+        {
+            "topic": "Evaluating the model's performance on the HELM-SWAG task",
+            "content": "This section is not covered in the provided transcript. The transcript does not mention evaluating the model's performance on the HELM-SWAG task.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-05-"23T09":"00":00Z,
+            time_elapsed": 0
+        },
+        {
+            "topic": "Leveraging the Fine Web Edu dataset for pretraining",
+            "content": "This section is not covered in the provided transcript. The transcript does not mention leveraging the Fine Web Edu dataset for pretraining the GPT-2 model.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-05-"23T09":"00":00Z,
+            time_elapsed": 0
+        },
+        {
+            "topic": "Comparing the performance of the custom PyTorch implementation to a CUDA-based implementation",
+            "content": "This section is not covered in the provided transcript. The transcript does not mention comparing the performance of a custom PyTorch implementation to a CUDA-based implementation of the GPT-2 model.",
+            "key_points": [],
+            "examples": [],
+            "source": "video transcript",
+            "timestamp": "2023-05-"23T09":"00":00Z,
+            time_elapsed": 0
+        }
+    ]
+}. Error details: {
+  "cause": "None"
+}

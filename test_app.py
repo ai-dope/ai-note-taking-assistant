@@ -3,94 +3,135 @@ import logging
 import argparse
 from dotenv import load_dotenv
 from src.note_assistant import NoteAssistant
+from tqdm import tqdm
+import sys
+from datetime import datetime
 
-# Set up logging
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
+def setup_logging():
+    """Set up logging configuration."""
+    # Create logs directory if it doesn't exist
+    os.makedirs("logs", exist_ok=True)
+    
+    # Generate unique log filename with timestamp
+    log_filename = f"logs/app_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # Configure logging to write to file
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_filename),
+            logging.StreamHandler(sys.stderr)  # Only show errors in console
+        ]
+    )
+    
+    # Force reconfiguration of all loggers
+    logging.getLogger().handlers = []
+    logging.getLogger().addHandler(logging.FileHandler(log_filename))
+    
+    # Configure all existing loggers
+    for logger_name in logging.root.manager.loggerDict:
+        logger = logging.getLogger(logger_name)
+        logger.handlers = []
+        logger.addHandler(logging.FileHandler(log_filename))
+        logger.propagate = False
+    
+    return log_filename
+
+def update_progress(x: int, stage: str) -> None:
+    """Update the progress bar with the current stage."""
+    pbar.set_description(f"Overall Progress: {stage}")
+    pbar.n = x
+    pbar.refresh()
 
 def main():
-    # Set up argument parser
-    parser = argparse.ArgumentParser(description='Process content for note-taking')
-    parser.add_argument('--video', help='URL of the YouTube video to process')
-    parser.add_argument('--document', help='Path to the document to process')
-    parser.add_argument('--text', help='Text content to process')
-    parser.add_argument('--text-file', help='Path to text file to process')
-    parser.add_argument('--auth-token', help='Authentication token for private videos')
-    parser.add_argument('--playback-speed', type=float, default=2.0,
-                      help='Video playback speed (default: 2.0x)')
-    args = parser.parse_args()
-
     # Load environment variables
     load_dotenv()
     
-    # Initialize the note assistant
-    print("Initializing NoteAssistant...")
+    parser = argparse.ArgumentParser(description='Process various types of content and generate notes.')
+    parser.add_argument('--video', help='URL of the video to process')
+    parser.add_argument('--document', help='Path to the document to process')
+    parser.add_argument('--text', help='Text to process')
+    parser.add_argument('--text-file', help='Path to the text file to process')
+    parser.add_argument('--playback-speed', type=float, help='Playback speed for video processing')
+    parser.add_argument('--auth-token', help='Authentication token for video processing')
+    parser.add_argument('--duration-limit', help='Duration limit in HH:MM:SS format (e.g., "00:05:00" for 5 minutes)')
+    parser.add_argument('--time-window', nargs=2, help='Time window in HH:MM:SS format (e.g., "00:06:00" "00:08:24" for 6:00-8:24)')
+    
+    args = parser.parse_args()
+    
+    # Set up logging
+    log_filename = setup_logging()
+    logging.info("Initializing NoteAssistant")
+    
+    # Initialize the assistant
     assistant = NoteAssistant()
+    
+    # Create progress bar
+    global pbar
+    pbar = tqdm(total=100, desc="Overall Progress", file=sys.stdout)
     
     try:
         if args.video:
-            print(f"\nProcessing video: {args.video}")
-            print(f"Playback speed: {args.playback_speed}x")
-            logger.debug("Starting video processing...")
-            assistant.process_video(args.video, args.auth_token, args.playback_speed)
-            logger.debug("Video processing completed successfully")
-            print("Video processed successfully!")
+            logging.info(f"Processing video: {args.video}")
+            result = assistant.process_video(
+                args.video,
+                auth_token=args.auth_token,
+                playback_speed=args.playback_speed,
+                duration_limit=args.duration_limit,
+                time_window=tuple(args.time_window) if args.time_window else None,
+                progress_callback=update_progress
+            )
+            print("\nSuccessfully processed video.")
+            print(f"Notes saved to: {result['output_file']}")
+            print("\nAvailable topics:")
+            for topic in result["main_topics"]:
+                print(f"- {topic}")
+            
+            print(f"\nLog file: {log_filename}")
             
         elif args.document:
-            print(f"\nProcessing document: {args.document}")
-            logger.debug("Starting document processing...")
-            assistant.process_document(args.document)
-            logger.debug("Document processing completed successfully")
-            print("Document processed successfully!")
+            logging.info(f"Processing document: {args.document}")
+            result = assistant.process_document(
+                args.document,
+                progress_callback=update_progress
+            )
+            print(f"\nSuccessfully processed document. Notes saved to: {result['output_file']}")
             
         elif args.text:
-            print("\nProcessing text content...")
-            logger.debug("Starting text processing...")
-            assistant.process_text(args.text)
-            logger.debug("Text processing completed successfully")
-            print("Text processed successfully!")
+            logging.info("Processing text input")
+            result = assistant.process_text(
+                args.text,
+                progress_callback=update_progress
+            )
+            print(f"\nSuccessfully processed text. Notes saved to: {result['output_file']}")
             
         elif args.text_file:
-            print(f"\nProcessing text file: {args.text_file}")
-            logger.debug("Starting text file processing...")
-            with open(args.text_file, 'r') as f:
-                text_content = f.read()
-            assistant.process_text(text_content)
-            logger.debug("Text file processing completed successfully")
-            print("Text file processed successfully!")
+            logging.info(f"Processing text file: {args.text_file}")
+            result = assistant.process_text_file(
+                args.text_file,
+                progress_callback=update_progress
+            )
+            print(f"\nSuccessfully processed text file. Notes saved to: {result['output_file']}")
             
         else:
-            print("No input specified. Please provide --video, --document, --text, or --text-file argument.")
+            parser.print_help()
             return
         
-        # Get available topics
-        print("\nAvailable topics:")
-        topics = assistant.get_all_topics()
-        for topic in topics:
-            print(f"- {topic}")
+        # Print available topics
+        if result and 'main_topics' in result:
+            print("\nAvailable topics:")
+            for topic in result['main_topics']:
+                print(f"- {topic}")
         
-        # Get notes for the first topic
-        if topics:
-            first_topic = topics[0]
-            print(f"\nGetting notes for '{first_topic}' topic:")
-            notes = assistant.get_notes_by_topic(first_topic)
-            for note in notes:
-                print(f"\nContent: {note['content']}")
-                print(f"Source: {note['source']}")
-                print(f"Timestamp: {note['timestamp']}")
-            
-            # Show timeline for the topic
-            print(f"\nTimeline for '{first_topic}':")
-            timeline = assistant.get_topic_timeline(first_topic)
-            for entry in timeline:
-                minutes = int(entry['time'] // 60)
-                seconds = int(entry['time'] % 60)
-                print(f"\nTime: {minutes:02d}:{seconds:02d}")
-                print(f"Content: {entry['content']['content']}")
-            
+        print(f"\nLog file: {log_filename}")
+        
     except Exception as e:
-        logger.error(f"Error during processing: {str(e)}", exc_info=True)
-        print(f"Error during processing: {str(e)}")
+        logging.error(f"Error processing content: {str(e)}")
+        print(f"\nError: {str(e)}")
+        sys.exit(1)
+    finally:
+        pbar.close()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main() 

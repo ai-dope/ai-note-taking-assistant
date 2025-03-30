@@ -1,0 +1,37 @@
+Initializing NoteAssistant
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+Processing video: https://youtu.be/l8pRSuU81PU?si=kIIjGlOWNozJWy0m
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Error processing content: Failed to process video: Failed to process video: Failed to process chunk 1/28 after 3 attempts: JSON validation failed: Expecting ',' delimiter: line 5 column 170 (char 252)
+Content: {
+    "notes": [
+        {
+            "topic": "Reproducing the GPT2 124M model",
+            "content": "The video discusses reproducing the GPT2 124M model, which is the smallest version of the GPT2 model released by OpenAI in 2019. The key points "are":
+- The GPT2 model comes in different sizes, with the 124M version having 12 layers and 768 dimensions in the Transformer.
+- The original GPT2 code was written in TensorFlow, but the video will use PyTorch and the Hugging Face Transformers library to load and work with the pre-trained model.
+- The video will start by loading the pre-trained GPT2 124M model from the Hugging Face Transformers library, and explore the model parameters and structure.",
+            "key_points": [
+                "Reproduce the GPT2 124M model",
+                "Use PyTorch and Hugging Face Transformers library",
+                "Load and explore the pre-trained GPT2 124M model"
+            ],
+            "examples": [
+                "Visualizing the position embeddings of the pre-trained model"
+            ],
+            "source": "video transcript",
+            "timestamp": "2023-04-"18T10":"00":00Z,
+            time_elapsed": 0
+        }
+    ]
+}. Error details: {
+  "cause": "None"
+}

@@ -1,0 +1,15 @@
+{
+  "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "main_topics": [
+    "Topic 1",
+    "Topic 2"
+  ],
+  "notes": [
+    {
+      "topic": "Topic 1",
+      "content": "Content 1",
+      "timestamp": "00:00"
+    }
+  ],
+  "processed_at": "2025-03-30T09:52:29.970964"
+}
